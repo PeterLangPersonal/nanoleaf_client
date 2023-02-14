@@ -1,0 +1,21 @@
+.graphContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.recharts-responsive-container {
+    margin-right: 24px;
+}
+
+.graphUI {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.graphUIDock {
+    display: flex;
+    font-size: 24px;
+    margin-bottom: 12px;
+}

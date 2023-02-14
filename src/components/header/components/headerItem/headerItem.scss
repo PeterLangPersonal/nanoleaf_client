@@ -1,0 +1,26 @@
+$headerBackgroundColour: rgb(213, 213, 213);
+$headerBackgroundSelectedColour: rgb(120, 173, 204);
+
+.headerItem {
+    background-color: $headerBackgroundColour;
+    margin: 8px 0;
+    width: 0;
+    flex: 1 1 0;
+    display: flex;
+    color: black;
+}
+
+.headerItemTitle {
+    margin: auto;
+    font-weight: 500;
+}
+
+.headerItemSelected {
+    @extend .headerItem;
+    background-color: $headerBackgroundSelectedColour;
+    color: white;
+}
+
+.headerItem:hover {
+    cursor: pointer;
+}
